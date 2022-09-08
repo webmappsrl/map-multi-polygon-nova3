@@ -33,7 +33,7 @@ composer require wm/map-multi-polygon-nova3
 You can display a post gist geography(MultiPolygon,4326) area on the map and change it by uploading a new MultiPolygon file (.GPX, .KML, .GEOJSON)
 
 ```php
-    use Wm\MapMultiPolygon\MapMultiPolygon;
+    use Wm\MapMultiPolygonNova3\MapMultiPolygonNova3;
     /**
      * Get the fields displayed by the resource.
      *
@@ -45,7 +45,7 @@ You can display a post gist geography(MultiPolygon,4326) area on the map and cha
         return [
             ID::make()->sortable(),
                 ...
-            MapMultiPolygon::make('geometry')->withMeta([
+            MapMultiPolygonNova3::make('geometry')->withMeta([
                 'center' => ['42.795977075', '10.326813853'],
                 'attribution' => '<a href="https://webmapp.it/">Webmapp</a> contributors',
             ]),
