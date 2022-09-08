@@ -1,5 +1,5 @@
 # map-multi-polygon-nova3
-![Map Multi Polygon, awesome resource field for Nova 3](banner.jpg)
+![Map Multi Polygon, awesome resource field for Nova 3](banner-nova3.jpg)
 
 ---
 
